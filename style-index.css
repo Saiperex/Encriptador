@@ -19,4 +19,16 @@
 {
     height: 20vh;
     background-color: black;
+    text-align: center;
+}
+.Logo-Saiperex
+{
+    height: 50%;
+    margin: 20px;
+}
+.copyright
+{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
 }
