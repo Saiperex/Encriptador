@@ -1,0 +1,18 @@
+/*header*/
+.cabecera
+{
+    height: 20vh;
+    background-color: black;
+}
+/*main*/
+.principal
+{
+    height: 60vh;
+    background-color: #cccccc;
+}
+/*footer*/
+.pie
+{
+    height: 20vh;
+    background-color: black;
+}
