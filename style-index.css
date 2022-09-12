@@ -1,21 +1,24 @@
 /*header*/
 header
 {
+    margin-top: 10px;
     padding: 20px;
     width: 60%;
     background-color: #cccccc;
     border-style: solid;
     border: 2px solid black;
     border-radius: 10px;
+    display: inline-block;
 }
 /*Main*/
 .caja-encriptar-desencriptar
 {
-    margin: 10px;
+    margin: 20px;
     background-color: #cccccc;
     width: 60%;
     border: 2px solid black;
     border-radius: 10px;
+    display: inline-block;
 }
 .encriptar-desencriptar
 {
@@ -27,3 +30,15 @@ header
     width: 100%;
 }
 /*section*/
+.resultados
+{
+    width: 35%;
+    height: 90vh;
+    background-color: #cccccc;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
