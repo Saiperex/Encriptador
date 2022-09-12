@@ -9,4 +9,21 @@ header
     border-radius: 10px;
 }
 /*Main*/
+.caja-encriptar-desencriptar
+{
+    margin: 10px;
+    background-color: #cccccc;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.encriptar-desencriptar
+{
+    width: 70%;
+    margin: 10px auto;
+}
+.contenedor-textarea
+{
+    width: 100%;
+}
 /*section*/
