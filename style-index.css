@@ -36,11 +36,46 @@ section
 textarea
 {
     width: 100%;
+}
+#objetivo
+{
     height: 70%;
 }
+#obtencion
+{
+    height: 80%;
+}
+/*Otras modificaciones*/
 legend
 {
-    display: block;
+   margin: 30px;
+}
+.boton
+{
+    width: 40%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 20px;
+    box-sizing: content-box;
+}
+#copiar
+{
+    margin-top: 30px;
+    background-color: #E5E5E5;
+    color: #0A3871;
+}
+#desencriptar
+{
+    background-color: #E5E5E5;
+    color: #0A3871;
+}
+#encriptar
+{
+    background-color: #0A3871;
+    color: #FFFFFF;
 }
 /*footer*/
 .pie
