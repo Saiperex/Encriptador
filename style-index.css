@@ -16,6 +16,32 @@
     padding: 20px;
     box-sizing: border-box;
 }
+/*section*/
+.caja
+{
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+}
+section
+{
+    width: 45%;
+    height: 100%;
+    display: inline-block;
+    margin: 0 2.3%;
+    padding: 20px;
+    box-sizing: border-box;
+    vertical-align: bottom;
+}
+textarea
+{
+    width: 100%;
+    height: 70%;
+}
+legend
+{
+    display: block;
+}
 /*footer*/
 .pie
 {
