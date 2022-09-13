@@ -1,0 +1,44 @@
+body
+{
+    background-color: rgb(8, 129, 234);
+}
+/*header*/
+.cabecera
+{
+    background: url("imagenes/bg.jpg");
+    display: flex;/*Usamos flex para el display y que aplique en todos los elementos que contiene*/
+    justify-content: space-between;/*Esto me permite ponerte un espacio entre los elementos*/
+    align-items: center;/*Hace que por regla todos los elemetos vayan enmedio en el eje y */
+    padding: 30px;/*Espaciamiento interno*/
+    color: white; /*Hago que el texto directo esté de color blanco. El texto directo es el que es nieto directo. Por lo que no aplica a los botones*/
+}
+.cabecera-titulo h1/*La parte de titulo no necesita mas modificaciones. Por ahora...*/
+{
+    display: inline-block;/*Para que aparezca al lado. Servia con un inline pero el block es por si quiero cambiar el tamaño de la caja*/
+    margin-left: 10px;/*Para que no esté tan pegado al logo*/
+    font-size: 30px;/*Tamaño de letra*/
+    font-weight: bold;/*Para que este en negrita*/
+}
+.cabecera-navegacion li /*Dando formato a los elemento del nav*/
+{
+    display: inline;/*A los elementos de la lista le decimos que sean solo en linea */
+    margin: 0 0 0 15px ;/*Un pequeño margencito*/
+}
+.cabecera-navegacion a/*Dando formato a los link dentro del nav*/
+{
+    text-transform: uppercase;/*Mayusculas*/
+    color: white;/*Como no es nieto directo no le aplica el cambio anterior*/
+    font-weight: bold;/*negrita*/
+    text-decoration: none;
+}
+.cabecera-navegacion a:hover/*Dandole efeto cuando le pase el cursor*/
+{
+    text-decoration: underline;/*Solo el subrayado*/
+}
+.cabecera-botones button/*Editar botones*/
+{
+    width: 100px;/*ancho*/
+    height: 100px;/*alto*/
+    border-radius: 50%;/*redondo*/
+    margin:0 10px;/*separacion*/
+}
