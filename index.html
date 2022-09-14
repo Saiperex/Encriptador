@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="reset.css/reset.css">
     <link rel="stylesheet" href="style-index.css">
+    <script src="script-index.js"></script>
     <title>Encriptador</title>
 </head>
 <body>
@@ -36,13 +37,13 @@
         <section class="enncriptador">
 
             <div class="encriptador-texto">
-                <textarea name="" id="" cols="30" rows="10" placeholder="ingrese texto aqui"></textarea>
+                <textarea name="" id="textoTraducir" cols="30" rows="10" placeholder="ingrese texto aqui"></textarea>
             </div>
 
             <div class="encriptador-botones">
                 <legend><img src="imagenes/alert.png" alt="alerta">  Solo minusculas y sin acento</legend>
-                <button class="boton" id="encriptar">Encriptar</button>
-                <button class="boton" id="desencriptar">Desencriptar</button>
+                <button class="boton" id="encriptar" onclick="encriptar()">Encriptar</button>
+                <button class="boton" id="desencriptar" onclick="desencriptar()">Desencriptar</button>
             </div>
 
         </section>
@@ -50,11 +51,11 @@
         <section class="resultados">
 
             <div class="resultados-texto">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea name="" id="textoResultado" cols="30" rows="10"></textarea>
             </div>
 
             <div class="resultados-boton">
-                <button class="boton" id="copiar">Copiar</button>
+                <button class="boton" id="copiar" onclick="copiar()">Copiar</button>
             </div>
 
         </section>
