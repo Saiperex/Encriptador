@@ -9,7 +9,14 @@ body
 /*header*/
 .cabecera
 {
-    background: url("imagenes/bg.jpg");
+    background-color: rgba(111, 107, 107, 0.5);
+    backdrop-filter: blur(20px);
+    border-style:solid;
+    border-width: 2px;
+    border-color: aqua;
+    border-radius: 2ch;
+    box-sizing: border-box;
+    box-shadow: 0px 14px 8px 0px rgba(255,255,255,0.4);
     display: flex;/*Usamos flex para el display y que aplique en todos los elementos que contiene*/
     justify-content: space-between;/*Esto me permite ponerte un espacio entre los elementos*/
     align-items: center;/*Hace que por regla todos los elemetos vayan enmedio en el eje y */
@@ -38,13 +45,35 @@ body
 .cabecera-navegacion a:hover/*Dandole efeto cuando le pase el cursor*/
 {
     text-decoration: underline;/*Solo el subrayado*/
+    color: aqua;
+    box-shadow: 5px 5px 9px 0px rgba(54,133,191,0.75);
+
 }
-.cabecera-botones button/*Editar botones*/
+.cabecera-botones a/*Editar botones*/
 {
-    width: 100px;/*ancho*/
-    height: 100px;/*alto*/
-    border-radius: 50%;/*redondo*/
+    width: 70px;/*ancho*/
+    height: 70px;/*alto*/
     margin:0 10px;/*separacion*/
+    padding: 0;
+    border-radius: 2ch;
+    box-sizing: border-box;
+}
+a img
+{
+    width: 70px;
+    height: 70px;
+    border-style:solid;
+    border-width: 2px;
+    border-color: aqua;
+    border-radius: 2ch;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 9px 0px rgba(54,133,191,0.75);
+    
+}
+a img:active
+{
+    border-color: red ;
+    box-shadow: -5px -5px 9px 0px rgba(171, 42, 42, 0.75);
 }
 /*Main*/
 .encapsular-elementos
