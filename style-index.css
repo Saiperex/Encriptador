@@ -147,3 +147,38 @@ legend
 {
     margin: 20px 20%;
 }
+/*mostrar ocultar*/
+#contenedor-textarea-button
+{
+    display: none;
+}
+#contenedor-imagen-texto
+{
+    box-sizing: border-box;
+    padding: 10px;
+    margin: auto 0;
+    text-align: center;
+}
+#contenedor-imagen-texto h2
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+}
+#contenedor-imagen-texto p
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: white;
+}
+#contenedor-imagen-texto img
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}

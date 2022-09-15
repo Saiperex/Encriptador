@@ -7,6 +7,16 @@ Se deben permitir mayusculas, minusculas y tildes, pero debe saber reconvertirlo
 */ 
 const matriz=[["e", "enter"], ["i", "imes"], ["a","ai"], ["o", "ober"], ["u","ufat"]];/*Regla de cambios de letras */
 const acentos=[["á","a"],["é","e"],["í","i"],["ó","o"],["ú","u"]]; /*Regla para volverlo sin tildes */
+/*Mostrar-ocultar*/
+function ocultar()
+{
+    document.getElementById("contenedor-imagen-texto").style.display="none";
+}
+
+function mostrar()
+{
+    document.getElementById("contenedor-textarea-button").style.display="block";
+}
 
 /*ver si tiene acentos*/
 function CambiarAcentos()
@@ -34,6 +44,8 @@ function encriptar()
     }
     const TextoUsuariofinal = document.getElementById("textoResultado");
     TextoUsuariofinal.value =texto;
+    ocultar();
+    mostrar();
 }
 
 function desencriptar()
@@ -48,9 +60,12 @@ function desencriptar()
     }
     const TextoUsuariofinal = document.getElementById("textoResultado");
     TextoUsuariofinal.value =texto;
+    ocultar();
+    mostrar();
 }
 function copiar()
 {
     var texto=document.getElementById("textoResultado").value;
     navigator.clipboard.writeText(texto);
 }
+//
