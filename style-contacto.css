@@ -75,3 +75,8 @@ a img:active
     border-color: red ;
     box-shadow: -5px -5px 9px 0px rgba(171, 42, 42, 0.75);
 }
+.cabecera-titulo a
+{
+    color: white;
+    text-decoration: none;
+}

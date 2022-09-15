@@ -75,6 +75,13 @@ a img:active
     border-color: red ;
     box-shadow: -5px -5px 9px 0px rgba(171, 42, 42, 0.75);
 }
+.proximamente
+{
+    
+    font-size: 50px;
+    display: inline;
+    color: white;
+}
 .cabecera-titulo a
 {
     color: white;
